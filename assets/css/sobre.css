@@ -127,14 +127,17 @@ html {
   margin: 0 3rem !important;
 }
 
-#jumbotron-sobre-fp {
-  padding: 0 3rem !important;
-}
-
 #img-central {
   width: 70%;
   margin: 0 auto;
 }
+
+  
+#jumbotron-sobre-fp {
+  padding: 0 3rem !important;
+  margin-right: 0px !important;
+} 
+
 @media only screen and (max-width: 430px) {
   #gradient-bota-parceiro {
     color: black;
@@ -163,9 +166,6 @@ html {
     margin: 0 !important;
     padding: 0 !important;
   }
-  #jumbotron-sobre-fp {
-    width: 110% !important;
-  }
   .jumbotron-sobre h1,
   .jumbotron-sobre h3 {
     padding: 1em 0 0 0;
@@ -175,6 +175,7 @@ html {
     margin-bottom: -1em;
   }
   #jumbotron-sobre-fp {
+    width: 110% !important;
     padding: 0 1rem !important;
   }
   .jumbotron-sobre h1 {
